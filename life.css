@@ -1,0 +1,29 @@
+body{
+    background: whitesmoke;
+}
+
+img{
+    width: 400px;
+    height: fit-content;
+    margin: 5px;
+ transition: transform 1s;
+}
+
+img:hover {
+  transform: scale(0.12);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid pink;
+    text-align: center;
+      transition: all 3s 1s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+ 
